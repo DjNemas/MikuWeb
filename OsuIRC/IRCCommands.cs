@@ -1,7 +1,4 @@
-﻿using OsuIRC.Attributes;
-using System.Diagnostics;
-
-namespace OsuIRC
+﻿namespace OsuIRC
 {
     public class IRCCommands
     {

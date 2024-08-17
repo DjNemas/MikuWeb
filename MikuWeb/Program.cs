@@ -1,8 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
 using OsuIRC;
-using System.Net;
-using System.Reflection.Metadata;
-using System.Runtime.InteropServices;
 
 namespace MikuWeb
 {
@@ -23,7 +20,7 @@ namespace MikuWeb
 
             await commands.Login();
             await Task.Delay(TimeSpan.FromSeconds(5));
-            await commands.SendMessageToUser("HatsuneMiku01", $"Miku Miku Miiiiiii");
+            await commands.SendMessageToUser("HatsuneMiku01", $"Test");
             await Task.Delay(TimeSpan.FromSeconds(10));
             await commands.Quit();
 
